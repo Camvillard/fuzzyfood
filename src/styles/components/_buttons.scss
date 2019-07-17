@@ -1,0 +1,47 @@
+/*----- COMPONENTS : BUTTONS -----*/
+
+input.btn-primary {
+  background: $primary;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: $headers-font;
+  font-size: 1.8rem;
+  padding: 5px;
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 16px;
+
+}
+
+button.btn-primary,
+a.btn-primary,
+.btn-primary {
+  background: $primary;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: $headers-font;
+  font-size: 1.8rem;
+  padding: 4px 0;
+}
+
+
+.btn-primary a {
+  text-transform: uppercase;
+  font-family: $headers-font;
+  font-size: 1.8rem;
+}
+
+.btn-secondary {
+  background: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: $dark-gray;
+  color: $medium-gray;
+  text-transform: uppercase;
+  font-family: $headers-font;
+  font-size: 1.8rem;
+  padding: 4px 0;
+  width: 100%;
+}
